@@ -30,7 +30,7 @@ The encoding method:
 * Make sure that myfile.txt contains the actual submission, for example open it in Notepad.
 * Encode the file using the assign_encoder tool as the following:
 g++ -O3 -o assign_encoder.exe assign_encoder.cpp
-assign_encoder.exe ./myfile.vl 1 1 20101111
+assign_encoder.exe ./myfile.txt 1 1 20101111
 * Replace the last number above with your student ID.
 * Open the resulting assign_1_20101111.bin file in a text editor.
 * Make sure that the text-editor did not put any line-breaks (un-check the word-wrap option).
