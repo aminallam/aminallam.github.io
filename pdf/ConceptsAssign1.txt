@@ -35,7 +35,7 @@ assign_encoder.exe ./myfile.txt 1 1 20101111
 * Open the resulting assign_1_20101111.bin file in a text editor.
 * Make sure that the text-editor did not put any line-breaks (un-check the word-wrap option).
 * Copy all the text included in the file.
-* Sign-in using your faculty email.
+* Sign-in using your Google email account.
 * Paste the text in the dedicated Google Survey link, as well as your ID.
 https://docs.google.com/forms/d/e/1FAIpQLSedmblzzBLhc0hV8ZtgvTMPSho4YMXTQRHEZ6rBGPoOniYL4g/viewform?usp=sf_link
 
