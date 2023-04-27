@@ -1,0 +1,46 @@
+Concepts of programming languages
+Assignment 2 [10 marks]
+
+Choose a language from the following languages:
+* C#
+* Java
+* JavaScript
+* Python
+* PHP
+* Rust
+
+* This assignment is individual. Each student must come up with his own submission.
+* You are not allowed to copy anything from any other student.
+* Answer the following questions and items in exactly 2 hand-written pages in exactly 1 double-sided A4 paper.
+* The total number of written lines must not exceed 70 lines.
+* The hand-written version must be written by your hands, not using any text-editing software.
+* Make a photocopy of the hand-written version and keep it with you all the time during the lectures.
+* The doctor may discuss with you, at any time he prefers after 12 May, the photocopy existing with you.
+* Write your name, your ID, your group, your lab slot time, and the language you have chosen at the top of the paper.
+* Make an electronic .txt version of the paper which is the same as the hand-written version.
+* Encode the electronic version using the method below.
+* Submit the encoded electronic version on the Google Forms link by 12 May.
+* Deliver and discuss the hand-written paper with the TA during your lab of the week starting at 13 May.
+* You must attend your lab slot, not any other lab slot.
+* You are not allowed to deliver an assignment on behalf of any other student.
+* You are allowed to choose a programming languge which differs from the language you chose in assignment 1.
+
+The encoding method:
+* Write your report in exactly one text file such as myfile.txt.
+* You must not include any TAB character in your report. Write 4 spaces in place of each TAB.
+* Make sure that myfile.txt contains the actual submission, for example open it in Notepad.
+* Encode the file using the assign_encoder tool as the following:
+g++ -O3 -o assign_encoder.exe assign_encoder.cpp
+assign_encoder.exe ./myfile.txt 2 1 20101111
+* Replace the last number above with your student ID.
+* Open the resulting assign_2_20101111.bin file in a text editor.
+* Make sure that the text-editor did not put any line-breaks (un-check the word-wrap option).
+* Copy all the text included in the file.
+* Sign-in using your Google email account.
+* Paste the text in the dedicated Google Survey link, as well as your ID.
+https://docs.google.com/forms/d/e/1FAIpQLSfOrGp0orlLfUxvoxbe_Cj7l1ZP9sboUP2Qd--lkXFm7kwNjQ/viewform?usp=sf_link
+
+- Answer the following questions and items applied to the language you have chosen from the above list.
+- You must choose examples which are different from the lecture examples.
+* Discuss the different ways to do generic programming in the language you chose.
+* Write comprehensive programs (source codes) explaining generic programming with comments and explanations.
