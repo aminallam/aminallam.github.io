@@ -1,0 +1,12 @@
+* Attending labs is essential in this course. Each lab is 2 marks.
+* You must attend the lab even if you did not do the assignment or if you did it partially to get 1 mark.
+* You must write your name and ID by your hand in the attendance/delivery sheet of each lab.
+* Try to get your solution accepted at UVA online judge.
+* Get your solution on a flash drive to your Lab.
+* Discuss your solution (individually) with the TA in your lab.
+* Behave with your teaching assistant with MAXIMUM RESPECT and POLITENESS.
+* You should NEVER use any built-ins in your code, except for input/output.
+* Every line in the code must be produced EXPLICITLY by YOU.
+* You must remember and understand EVERY LINE in your code.
+* You are responsible of explaining EVERY MINOR DETAIL in your code to your teaching assistant whenever he asks.
+* Do not send me apology of not attending any lab, unless you have a letter (containing duration) from faculty management.
