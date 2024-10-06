@@ -32,9 +32,9 @@ template<class Elem>
 struct Heap
 {
 	Array<Elem> a;
-	bool (*IsBefore)(int&, int&);
+	bool (*IsBefore)(Elem&, Elem&);
 
-	void Initialize(bool (*_IsBefore)(int&, int&));
+	void Initialize(bool (*_IsBefore)(Elem&, Elem&));
 	void Destroy();
 	int Child(int i);
 	int Parent(int i);
