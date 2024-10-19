@@ -1,0 +1,2 @@
+Implement Array, Graph, Sqrt, Prim in C++ using the attached cpp skeleton file.
+Use them to solve problem 534 and submit it to UVA online judge.

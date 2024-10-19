@@ -1,8 +1,8 @@
 // GROUP:   X
 // ID:      XXXXXXXX
-// Assign:  01
-// Assign:  ArrayHeap
-// UVA:     10954
+// Assign:  06
+// Assign:  Prim
+// UVA:     534
 // Name:    XXX MY FULL NAME
 
 #include <cstdio>
@@ -28,29 +28,34 @@ struct Array
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-template<class Elem>
-struct Heap
+struct Edge
 {
-	Array<Elem> a;
-	bool (*IsBefore)(Elem&, Elem&);
+	int		v;  // id of the adjacent node
+	double	w;  // edge weight = distance between the two nodes
+};
 
-	void Initialize(bool (*_IsBefore)(Elem&, Elem&));
+struct Node
+{
+	int x,y; // x and y coordinates of the node
+	Array<Edge> adj;
+
+	void Initialize();
 	void Destroy();
-	int Child(int i);
-	int Parent(int i);
-	void MoveUp(int ind);
-	void MoveDown(int ind);
-	void Add(Elem e);
-	Elem GetFirst();
-	Elem RetrieveFirst();
+};
+
+struct Graph
+{
+	int n;
+	Node* nodes;
+
+	void Initialize(int _n);
+	void Destroy();
 };
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-bool IsBeforeInt(int& a, int& b)
-{
-	return a<b;
-}
+// Find the square root of "v" in "n" iterations
+double Sqrt(double v, int n=100);
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 

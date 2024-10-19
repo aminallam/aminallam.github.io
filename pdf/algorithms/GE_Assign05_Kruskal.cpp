@@ -1,8 +1,8 @@
 // GROUP:   X
 // ID:      XXXXXXXX
-// Assign:  01
-// Assign:  ArrayHeap
-// UVA:     10954
+// Assign:  05
+// Assign:  Kruskal
+// UVA:     11631
 // Name:    XXX MY FULL NAME
 
 #include <cstdio>
@@ -13,43 +13,37 @@ using namespace std;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-template<class Value>
-struct Array
+struct DisjointSets
 {
-	int  n, sz;
-	Value* arr;
+	int n;
+	int* parent;
+	int* num_nodes;
 
-	void Initialize();
+	void Initialize(int _n);
 	void Destroy();
-	void AddLast(Value v);
-	void RemoveLast();
-	Value& operator[](int i);
+	int Find(int i);
+	bool Union(int i, int j);
 };
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-template<class Elem>
-struct Heap
-{
-	Array<Elem> a;
-	bool (*IsBefore)(Elem&, Elem&);
+template<class Type>
+void Merge(Type* a, int n, bool (*IsBefore)(Type& a, Type& b));
 
-	void Initialize(bool (*_IsBefore)(Elem&, Elem&));
-	void Destroy();
-	int Child(int i);
-	int Parent(int i);
-	void MoveUp(int ind);
-	void MoveDown(int ind);
-	void Add(Elem e);
-	Elem GetFirst();
-	Elem RetrieveFirst();
-};
+template<class Type>
+void MergeSort(Type* a, int n, bool (*IsBefore)(Type& a, Type& b));
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-bool IsBeforeInt(int& a, int& b)
+struct Edge
 {
-	return a<b;
+	int u, v;
+	int w;
+};
+
+bool IsBeforeEdge(Edge& a, Edge& b)
+{
+	return a.w<b.w;
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
