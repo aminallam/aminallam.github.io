@@ -1,0 +1,2 @@
+Implement Array, Heap, Graph, Dijkstra in C++ using the attached cpp skeleton file.
+Use them to solve problem 10986 and submit it to UVA online judge.
