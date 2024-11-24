@@ -1,0 +1,2 @@
+Implement Knapsack with Backtracking in C++ using the attached cpp skeleton file.
+Use it to solve problem 10130 and submit it to UVA online judge.

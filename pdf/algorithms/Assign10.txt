@@ -1,0 +1,2 @@
+Implement 2 versions of Matrix Chain Multiplication in C++ using the attached cpp skeleton file.
+Use them to solve problem 348 and submit it to UVA online judge.

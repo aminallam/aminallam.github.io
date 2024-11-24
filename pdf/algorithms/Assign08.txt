@@ -1,0 +1,3 @@
+Implement MergeSort, ClosestPair in C++ using the attached cpp skeleton file.
+Use the built-in sqrt() included in <cmath>.
+Use them to solve problem 10245 and submit it to UVA online judge.

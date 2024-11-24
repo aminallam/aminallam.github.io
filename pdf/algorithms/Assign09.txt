@@ -1,0 +1,2 @@
+Implement 4 versions of Knapsack in C++ using the attached cpp skeleton file.
+Use them to solve problem 10130 and submit it to UVA online judge.
